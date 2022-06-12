@@ -1,0 +1,145 @@
+body {
+  background-color: #EFFFFD;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Spline Sans Mono', monospace;
+
+}
+
+h1 {
+  font-size: 4rem;
+  color: #66BFBF;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding-bottom: 10px;
+}
+
+.profile-pic {
+  width: 30%;
+  padding-top: 10px;
+}
+p{
+  line-height: 2;
+}
+a {
+  color: #11999E;
+  transition: 1s;
+}
+a:hover {
+  color:#EFFFFD;
+}
+
+.top-container {
+  background-color: #EFFFFD;
+  position: relative;
+  padding-top: 150px;
+
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFC0;
+  padding: 50px 0 30px 0;
+
+}
+.bottom-container a{
+  padding: 20px;
+  text-decoration: none;
+}
+.bottom-container p {
+  color: white;
+  font-size: 0.7rem;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+
+.skill-pic {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.chilli-pic {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right:200px;
+  top:30px;
+  opacity:80%;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  opacity: 80%;
+  width: 200px;
+}
+.mountain {
+  position: relative;
+  width:1000px;
+  height: 500px;
+  padding-top: 0;
+  opacity: 50%;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+.contact-me p {
+  margin: 30px auto 80px;
+}
+hr {
+  border-style: none;
+  border-top: 8px dotted grey;
+  margin: 80px auto;
+  width: 6%;
+}
+.btn {
+  background: #11cdd4;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 1s;
+
+}
+.btn:hover {
+  background: grey;
+  text-decoration: none;
+}
